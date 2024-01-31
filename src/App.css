@@ -1,0 +1,66 @@
+/**
+   color = #9013FE , #3366ff , #23ACF5B5 , #489AC5B5
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.custom-shape-divider-top-1706720690 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1706720690 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 500px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1706720690 .shape-fill {
+    fill: #23ACF5B5;
+}
+
+.header
+{
+    position: relative;
+    display: flex; /* Utilisation de Flexbox pour aligner le contenu en bas */
+    flex-direction: column; /* Alignement vertical */
+    align-items: center; /* Alignement au centre horizontalement */
+    justify-content: flex-end; /* Alignement au bas de la page */
+    min-height: 100vh; /* Remplissage de la hauteur de la fenêtre */
+}
+.header nav .brand
+{
+    position:absolute;
+    top:0;
+    left: 0;
+
+}
+
+.header nav .btn_login
+{
+    position:absolute;
+    top:0;
+    right: 0;
+}
+
+header .text_heading
+{
+    position: absolute;
+    top:15%;
+    left:5%;
+
+}
+
+header .img_heading
+{
+    position: absolute;
+    top:9%;
+    left:50%;
+}

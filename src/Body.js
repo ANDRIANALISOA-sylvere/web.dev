@@ -17,11 +17,6 @@ const Body = () => {
                     </div>
                     <div className="card-body">
                         <h1 className="font-bold text-2xl">Movie_App</h1>
-                        <div className="description">
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit. Dolorem, earum expedita iste laborum modi
-                            molestiae nam necessitatibus repellat sed voluptatibus.
-                        </div>
                     </div>
                     <div className="card-footer">
                         <div className="m-1">
@@ -38,11 +33,6 @@ const Body = () => {
                     </div>
                     <div className="card-body">
                         <h1 className="font-bold text-2xl">Movie_App</h1>
-                        <div className="description">
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit. Dolorem, earum expedita iste laborum modi
-                            molestiae nam necessitatibus repellat sed voluptatibus.
-                        </div>
                     </div>
                     <div className="card-footer">
                         <div className="m-1">
@@ -59,11 +49,6 @@ const Body = () => {
                     </div>
                     <div className="card-body">
                         <h1 className="font-bold text-2xl">Movie_App</h1>
-                        <div className="description">
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit. Dolorem, earum expedita iste laborum modi
-                            molestiae nam necessitatibus repellat sed voluptatibus.
-                        </div>
                     </div>
                     <div className="card-footer">
                         <div className="m-1">

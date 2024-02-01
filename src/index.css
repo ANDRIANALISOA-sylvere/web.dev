@@ -4,11 +4,11 @@
 
 .card
 {
-    @apply shadow  m-5 md:w-80 rounded relative;
+    @apply  m-5 md:w-80 rounded relative;
 }
 .img_card
 {
-    @apply w-full rounded-t max-h-64;
+    @apply w-full max-h-64;
 }
 .card-body
 {

@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card
+{
+    @apply shadow  m-5 md:w-80 rounded relative;
+}
+.img_card
+{
+    @apply w-full rounded-t max-h-64;
+}
+.card-body
+{
+    @apply p-2;
+}
+.description{
+    @apply opacity-80;
+}
+.card-footer
+{
+    @apply flex justify-end p-2 absolute bottom-0 right-0;
+}

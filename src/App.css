@@ -33,7 +33,7 @@ body{
     flex-direction: column; /* Alignement vertical */
     align-items: center; /* Alignement au centre horizontalement */
     justify-content: flex-end; /* Alignement au bas de la page */
-    min-height: 100vh; /* Remplissage de la hauteur de la fenêtre */
+    min-height: 80vh; /* Remplissage de la hauteur de la fenêtre */
 }
 .header nav .brand
 {

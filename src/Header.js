@@ -14,7 +14,7 @@ const Header = () => {
                     <h3 className="font-bold text-white text-lg md:text-3xl mt-1">Dev.web</h3>
                 </div>
                 <div className="btn_login mt-6 md:mt-8">
-                    <a className="m-2 text-white border-2 border-white rounded-full md:h-8 px-4 py-2 hover:bg-white hover:text-black font-bold transition ease-out duration-500" href="#">Me contacter</a>
+                    <span className="m-2 text-white border-2 border-white rounded-full md:h-8 px-4 py-2 hover:bg-white hover:text-black font-bold transition ease-out duration-500">Me contacter</span>
                 </div>
             </nav>
             <header className="grid md:grid-cols-2 heading">

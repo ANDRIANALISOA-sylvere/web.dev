@@ -20,26 +20,10 @@ const Body = () => {
                     </div>
                     <div className="card-footer">
                         <div className="m-1">
-                            <a href="https://github.com" target="_blank"><FaGithub></FaGithub></a>
+                            <FaGithub></FaGithub>
                         </div>
                         <div className="m-1">
-                            <a href=""><FaLink></FaLink></a>
-                        </div>
-                    </div>
-                </div>
-                <div className="card">
-                    <div>
-                        <img src={img4} alt="" className="img_card"/>
-                    </div>
-                    <div className="card-body">
-                        <h1 className="font-bold text-2xl">Movie_App</h1>
-                    </div>
-                    <div className="card-footer">
-                        <div className="m-1">
-                            <a href="https://github.com" target="_blank"><FaGithub></FaGithub></a>
-                        </div>
-                        <div className="m-1">
-                            <a href=""><FaLink></FaLink></a>
+                            <FaLink></FaLink>
                         </div>
                     </div>
                 </div>
@@ -52,10 +36,26 @@ const Body = () => {
                     </div>
                     <div className="card-footer">
                         <div className="m-1">
-                            <a href="https://github.com" target="_blank"><FaGithub></FaGithub></a>
+                            <FaGithub></FaGithub>
                         </div>
                         <div className="m-1">
-                            <a href=""><FaLink></FaLink></a>
+                            <FaLink></FaLink>
+                        </div>
+                    </div>
+                </div>
+                <div className="card">
+                    <div>
+                        <img src={img4} alt="" className="img_card"/>
+                    </div>
+                    <div className="card-body">
+                        <h1 className="font-bold text-2xl">Movie_App</h1>
+                    </div>
+                    <div className="card-footer">
+                        <div className="m-1">
+                            <FaGithub></FaGithub>
+                        </div>
+                        <div className="m-1">
+                            <FaLink></FaLink>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 /**
    color = #9013FE , #3366ff , #23ACF5B5 , #489AC5B5
+   Awesome Screenshot BrowserStack Screenshots
 */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap');
 body{
@@ -29,11 +30,11 @@ body{
 .header
 {
     position: relative;
-    display: flex; /* Utilisation de Flexbox pour aligner le contenu en bas */
-    flex-direction: column; /* Alignement vertical */
-    align-items: center; /* Alignement au centre horizontalement */
-    justify-content: flex-end; /* Alignement au bas de la page */
-    min-height: 80vh; /* Remplissage de la hauteur de la fenêtre */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 80vh;
 }
 .header nav .brand
 {

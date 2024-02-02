@@ -17,7 +17,21 @@
 .description{
     @apply opacity-80;
 }
-.card-footer
+.card-body-head
 {
-    @apply flex justify-end p-2 absolute bottom-0 right-0;
+    @apply flex flex-wrap justify-between;
+}
+.card-footer{
+    @apply flex justify-between;
+}
+.badge_list
+{
+    @apply flex flex-wrap;
+}
+.badge{
+    @apply ring-2 ring-orange-500 outline-none rounded-full px-4 m-1 flex-wrap;
+}
+.auteur
+{
+    @apply bg-slate-50 border-t h-36 mt-5;
 }

@@ -15,8 +15,8 @@ const Auteur = () => {
                 <div className="p-2 ms-12 mr-3">
                     <img src={font} alt="" className="md:rounded-full h-20"/>
                 </div>
-                <div>
-                    <h1 className="font-bold text-2xl">Joséphin Sylvère</h1>
+                <div className="icone">
+                    <h1 className="font-bold text-white text-lg md:text-3xl mt-1">Joséphin Sylvère</h1>
                     <div className="mt-4 md:mt-8 flex justify-start gap-2 md:gap-4">
                         <span><FaGithub></FaGithub></span>
                         <span><FaFacebook></FaFacebook></span>

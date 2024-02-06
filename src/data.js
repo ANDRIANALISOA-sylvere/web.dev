@@ -1,32 +1,25 @@
+import fond from "./images/Capture d'écran 2024-02-05 185132.png";
+
 export const projets=[
     {
-        titre : "Movies App" ,
+        titre : "Movie_App",
         url_github : 'https://github.com/ANDRIANALISOA-sylvere/movie_app',
-        url_deployement : 'https://movie_app.netlify.app'
-    },
-    {
-        titre : "Github_user_search",
-        url_github : 'https://github.com/ANDRIANALISOA-sylvere/movie_app',
-        url_deployement : 'https://movie_app.netlify.app'
+        url_deployement : 'app-movie-tmdb.netlify.app',
+        tech : ["React","Bootstrap"]
     },
     {
         titre : "Portfolio",
-        url_github : 'https://github.com/ANDRIANALISOA-sylvere/movie_app',
-        url_deployement : 'https://movie_app.netlify.app'
+        Img : fond,
+        url_github : 'https://github.com/ANDRIANALISOA-sylvere/my-portfolio',
+        url_deployement : 'https://josephin-sylvere.vercel.app',
+        tech : ["React","Tailwindcss"]
     },
     {
-        titre : "Gestion de stock",
-        url_github : 'https://github.com/ANDRIANALISOA-sylvere/movie_app',
-        url_deployement : 'https://movie_app.netlify.app'
+        titre : "TodoList",
+        tech : ["Javascript"]
     },
     {
-        titre : "Weather App",
-        url_github : 'https://github.com/ANDRIANALISOA-sylvere/movie_app',
-        url_deployement : 'https://movie_app.netlify.app'
-    },
-    {
-        titre : "Recette App",
-        url_github : 'https://github.com/ANDRIANALISOA-sylvere/movie_app',
-        url_deployement : 'https://movie_app.netlify.app'
+        titre : "New year eve",
+        tech : ["Javascript"]
     }
 ]

@@ -4,7 +4,11 @@
 
 .card
 {
-    @apply  m-5 md:w-80 rounded relative;
+    @apply  m-5 md:w-96 rounded relative bg-blue-50 transition ease-out duration-700;
+}
+.card:hover
+{
+    @apply bg-slate-300 scale-105;
 }
 .img_card
 {
@@ -28,10 +32,15 @@
 {
     @apply flex flex-wrap;
 }
-.badge{
+.badge
+{
     @apply ring-2 ring-orange-500 outline-none rounded-full px-4 m-1 flex-wrap;
 }
 .auteur
 {
-    @apply bg-slate-50 border-t h-36 mt-5;
+    @apply bg-slate-800 border-t h-36 mt-5;
+}
+.icone
+{
+    @apply text-white;
 }

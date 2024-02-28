@@ -13,8 +13,8 @@ const Card = ({projects}) => {
                 <div className="card-body-head">
                     <h1 className="font-bold text-2xl">{projects.titre}</h1>
                     <div className="card-footer">
-                        {projects.url_github && <a href={projects.url_github}><FaGithub className="m-1"></FaGithub></a>}
-                        {projects.url_deployement && <a href={projects.url_deployement}><FaLink className="m-1"></FaLink></a>}
+                        {projects.url_github && <a href={projects.url_github} target="_blank" rel="noopener noreferrer"><FaGithub className="m-1"></FaGithub></a>}
+                        {projects.url_deployement && <a href={projects.url_deployement} target="_blank" rel="noopener noreferrer"><FaLink className="m-1"></FaLink></a>}
                     </div>
                 </div>
                 <div className="badge_list">

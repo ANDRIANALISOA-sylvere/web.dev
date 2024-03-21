@@ -2,45 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-.card
-{
-    @apply  m-5 md:w-96 rounded relative bg-blue-50 transition ease-out duration-700;
+.card {
+  @apply m-5 md:w-96 rounded relative bg-blue-50 transition ease-out duration-700;
 }
-.card:hover
-{
-    @apply bg-slate-300 scale-105;
+.card:hover {
+  @apply bg-slate-300 scale-105;
 }
-.img_card
-{
-    @apply w-full max-h-64;
+.img_card {
+  @apply w-full max-h-64;
 }
-.card-body
-{
-    @apply p-2;
+.card-body {
+  @apply p-2;
 }
-.description{
-    @apply opacity-80;
+.description {
+  @apply opacity-80;
 }
-.card-body-head
-{
-    @apply flex flex-wrap justify-between;
+.card-body-head {
+  @apply flex flex-wrap justify-between;
 }
-.card-footer{
-    @apply flex justify-between;
+.card-footer {
+  @apply flex justify-between;
 }
-.badge_list
-{
-    @apply flex flex-wrap;
+.badge_list {
+  @apply flex flex-wrap;
 }
-.badge
-{
-    @apply ring-2 ring-orange-500 outline-none rounded-full px-4 m-1 flex-wrap;
+.badge {
+  @apply ring-2 ring-orange-500 outline-none rounded-full px-4 m-1 flex-wrap;
 }
-.auteur
-{
-    @apply bg-slate-800 border-t h-36 mt-5;
+.auteur {
+  @apply bg-slate-800 border-t h-36 mt-5;
 }
-.icone
-{
-    @apply text-white;
+.icone {
+  @apply text-white;
 }
